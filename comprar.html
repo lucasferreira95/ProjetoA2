@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Pacotes de Viagens</title>
+        <link rel="icon" href="img/aviaozinho.jpg">
+        <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/comprar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+    
+                <button class="menu-abrir">Abre Menu</button>
+    
+                <h1 class="logo">
+                    <img src="img/logo.png" alt="Viagem.com">
+                </h1>
+    
+                <nav class="barra-nav">
+    
+                    <button class="menu-fechar">Fecha Menu</button>
+    
+                    <ul class="menu-principal">
+                        <li><a href="index.html" class="menu-botao">HOME</a>
+                        <li><a href="comprar.html" class="menu-botao">Comprar</a>
+                        <li><a href="contato.html"class="menu-botao">Contato</a>
+                    </ul>
+                    
+                </nav>
+
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+
+                <h2 class="titulo-pagina">PAGAMENTO</h2>
+                <div class="pagamento">       
+                    <form>
+                        <fieldset>
+                            <legend>Informe Seus Dados</legend>
+                            <label class="celula" for="nome">Nome completo</label>
+                            <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                            <label class="celula" for="email">E-mail</label>
+                            <input id="email" type="email" name="email" required placeholder="seu@email.com">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Informe os dados do cartão</legend>
+                            <label class="celula" for="card">Numero do cartão</label>
+                            <input id="card" type="number" name="card">
+                            <label class="celula" for="vencimento">Data de validade do cartão</label>
+                            <input id="vencimento" type="date" name="vencimento">
+                            <label class="celula" for="seguranca">Codigo de segurança</label>
+                            <input id="ccv" type="number" name="ccv">
+                        </fieldset>
+                        <fieldset class="destino">
+                            <legend>Selecione o destino</legend>
+                            <label>
+                                <input type="radio" name="assunto" value="Londres">
+                                Londres
+                            </label>
+                            <label>
+                                <input type="radio" name="assunto" value="Acapulco">
+                                Acapulco
+                            </label>
+                            <label>
+                                <input type="radio" name="assunto" value="Dubai">
+                                Dubai
+                            </label>
+                            <label>
+                                <input type="radio" name="assunto" value="Amsterdam">
+                                Amsterdam
+                            </label>
+                        </fieldset>
+                        <button type="submit">Comprar</button>
+                    </form>
+                </div>
+
+        </section>
+
+        </main>
+
+        <footer class="rodape">
+            &copy; Lucas Ferreira Cunha
+        </footer>
+
+        <script src="js/menu.js"></script>
+        
+    </body>
+</html>

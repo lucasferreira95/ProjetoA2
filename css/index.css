@@ -1,0 +1,147 @@
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+body {
+	font-family: Arial, helvetica, sans-serif;
+	line-height: 1.4;
+}
+
+header {
+	background: #f0f0f0;
+	width: 100%;
+}
+.logo img {
+	display: block;
+}
+
+.menu-botao {
+    color: black;
+}
+
+.menu-principal {
+	font-weight: bold;
+	list-style-type: none;
+	}
+	.menu-principal a {
+		display: block;
+		padding-right: 1em;
+		margin-right: 1em;
+		line-height: 1;
+		text-decoration: none;
+		text-transform: lowercase;
+	}
+		.menu-principal a:hover {
+			opacity: 0.8;
+		}
+
+.descricao{   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-descricao {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: center;
+}
+
+@media (max-width: 1279.95px){
+.texto-descricao {
+    padding: 16px;}
+}
+.titulo1 {
+    font-size: 3.0em;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1279.95px){
+    .titulo1 {
+        font-size: 2.0em;}
+    }
+
+.paragrafo-descricao {
+    color: #a3a3a3;
+}
+
+.destinos{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width: 1279.95px){
+    .destinos {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.lista-destinos{
+    padding-left: 0;
+    width: calc(100% + 16px);
+    margin: -8px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.lista-destinos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-destinos li {
+    border:none;
+    background-color: #FAFFFC;
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0.5em ;
+}
+
+.lista-destinos img {
+    width: 100%;
+    box-shadow: 0 0 4px #000;
+
+}
+
+.imagem {
+    list-style-type: none;
+}
+
+.imagem :hover {
+    transform: scale(1.1);
+}
+
+.legenda{
+    text-align: center;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

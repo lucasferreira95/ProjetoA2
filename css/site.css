@@ -1,0 +1,112 @@
+.foto{   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.titulo-pagina{
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1279.95px){
+    .titulo-pagina {
+        padding: 16px;}
+}
+
+.imagem-fundo {
+    size: relative;
+}
+
+section{
+    background-color:white;
+    padding: 1%;
+    margin: 0.5%;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    clear: both; 
+}
+.subtitulo{
+        font-size: 3.0em;
+        text-align: center;
+        font-weight: 550;
+        padding-top: 5%;
+        text-transform: uppercase;
+}
+    
+@media (max-width: 1279.95px){
+        .subtitulo {
+            font-size: 2.0em;
+    }
+}
+
+.paragrafos{
+    line-height: 100%;
+    font-size: 100%;
+    text-indent: 30px;
+    clear: none;
+    padding-top: 0%;
+    text-align: justify;
+}
+
+.preço1{
+    line-height: 100%;
+    font-size: 150%;
+    text-indent: 30px;
+    clear: none;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.preço2{
+    line-height: 100%;
+    font-size: 200%;
+    text-indent: 30px;
+    clear: none;
+    padding-top: 5%;
+    text-align: center;
+    color: red;
+}
+
+.botao-comprar{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+}
+
+button:active{
+	margin-top:0px;
+    border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+}
+
+.bto{
+color: white;
+text-decoration: none;
+}

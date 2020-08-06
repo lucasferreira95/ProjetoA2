@@ -1,0 +1,71 @@
+.titulo-pagina{
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1279.95px){
+    .titulo-pagina {
+        padding: 16px;}
+}
+
+section{
+    background-color:white;
+    padding: 1%;
+    margin: 0.5%;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    clear: both;
+}
+
+legend,
+label[for="mensagem"] {
+    font-weight: bold;
+    margin-top: 1em;
+}
+label[for],
+button {
+    display: block;
+}
+
+button {
+    border: 0;
+    padding: .5em 2em;
+    background-color: #0c8cd3;
+    color: white;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-top: 1em;
+}
+
+.celula {
+    position: relative;
+    margin-bottom: 0;
+}
+.celula::after {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background-size: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 100%;
+}
+.celula + input {
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+    margin-top: 0;
+}
+.destino {
+    text-align: center;
+}
